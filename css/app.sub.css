@@ -1,0 +1,113 @@
+.Frame {
+    -webkit-transition: padding-top .5s ease;
+    transition: padding-top .5s ease;
+    display: table;
+    table-layout: fixed;
+    position: relative;
+    width: 100%;
+    background-image: -webkit-gradient(linear,left top, left bottom, color-stop(0,rgba(255,152,91,1)),to(rgba(84,248,188,0)));
+    background-image: -webkit-linear-gradient(top,rgba(255,152,91,1),rgba(84,248,188,0));
+    background-image: linear-gradient(180deg,rgba(255,152,91,1),rgba(84,248,188,0));
+    background-color: #f5ee71;
+    letter-spacing: -.02rem;
+    overflow: hidden;
+    height: 100%;
+    z-index: 0;
+}
+
+.FrameBackground {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: absolute;
+    z-index: 0;
+}
+
+.FrameBackground.HoneyCrush{
+    background-image: url("../honeycrush/img/hexbg.png");
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: 100%;
+}
+
+
+
+.FrameContent {
+    width: 100%;
+    height: 100%;
+    display: table-row;
+    z-index: 2;
+}
+
+.FooterFrame {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    z-index: 2;
+}
+
+.ButtonLine {
+    position: relative;
+    margin: 0 3%;
+    width: 100%;
+}
+
+.StoreLinkButton {
+    position: relative;
+    margin: 0 5%;
+    width: 39%;
+    height: 100%;
+    display: inline-block;
+}
+
+.StoreLinkButton img{
+    width: 100%;
+    max-width: 250px;
+    background-repeat: no-repeat;
+}
+.HoneyCrush .Char_Content {
+    height: 85%;
+}
+
+.HoneyCrush .Char_DecoLeft {
+    background-image: url("../honeycrush/img/queen.png");
+    width: 180%;
+    bottom: -3%;
+    right: -20%;
+}
+.HoneyCrush .Char_DecoRight {
+    background-image: url("../honeycrush/img/scientist.png");
+    width: 180%;
+    bottom: -5%;
+    left: -20%;
+}
+
+.HoneyCrush .GameLogo {
+    background-image: url("../honeycrush/img/hctitle.png");
+}
+
+@media (min-width: 480px){
+    .FrameBackground.HoneyCrush{
+        background-size: 110%;
+    }
+}
+
+@media (min-width: 768px){
+    .HoneyCrush .Char_DecoLeft {
+        background-image: url("../honeycrush/img/queen.png");
+        z-index: 0;
+        width: 150%;
+        bottom: -7%;
+    }
+
+    .HoneyCrush .Char_DecoRight {
+        background-image: url("../honeycrush/img/scientist.png");
+        z-index: 1;
+        width: 150%;
+        bottom: -10%;
+    }
+
+    .FrameBackground.HoneyCrush{
+        background-size: 120%;
+    }
+}
