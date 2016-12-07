@@ -1,14 +1,18 @@
 h1{
     font: bold 60px/71px "Patrick Hand SC";
-    color: #fff;
+    color: #f0ab20;
 }
 
 h2{
     font: bold 50px/71px "Patrick Hand SC";
-    color: #fff;
+    color: #f0ab20;
 }
 
 h3{
     font: bold 22px/41px "Patrick Hand SC";
-    color: #fff;
+    color: #a7bada;
+}
+
+h3 span{
+    color: #a7bada
 }

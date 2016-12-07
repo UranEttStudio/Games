@@ -113,11 +113,11 @@ textarea {
 }
 body {
 	margin:0;
-	font-family:cursive, Helvetica, sans-serif;
+	font-family:Helvetica, sans-serif;
 	font-size:14px;
 	line-height:25px;
-	color:#6c95a5;
-	background-color:#11252d;
+	color:#ecf7fd;
+	background-color:#ecf7fd;
 }
 a {
 	color:#ffffff;
